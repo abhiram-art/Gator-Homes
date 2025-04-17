@@ -1,0 +1,65 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Binary files and build output
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Testing and development
+/tmp/
+/scripts/
+/coverage/
+*.test
+*.out
+*.prof
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Go specific
+/vendor/
+/go.work
+/go.work.sum
+/.go/
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+
+# Debug files
+__debug_bin
+debug
+*.debug
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Log files
+*.log
+logs/
+npm-debug.log*
+
+# MongoDB related
+/data/db/
