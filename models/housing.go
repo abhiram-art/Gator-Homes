@@ -16,7 +16,7 @@ type Housing struct {
 	Type      string             `bson:"type" json:"type" validate:"required"`
 	Name      string             `bson:"name" json:"name" validate:"required"`
 	Image     string             `bson:"image" json:"image"`
-	Country   string             `bson:"country" json:"country"`
+	County    string             `bson:"county" json:"county"`
 	Address   string             `bson:"address" json:"address" validate:"required"`
 	Bedrooms  string             `bson:"bedrooms" json:"bedrooms"`
 	Bathrooms string             `bson:"bathrooms" json:"bathrooms"`

@@ -174,7 +174,7 @@ func (c *HousingController) UpdateHousing(w http.ResponseWriter, r *http.Request
 			"type":      housing.Type,
 			"name":      housing.Name,
 			"image":     housing.Image,
-			"country":   housing.Country,
+			"county":   housing.County,
 			"address":   housing.Address,
 			"bedrooms":  housing.Bedrooms,
 			"bathrooms": housing.Bathrooms,
