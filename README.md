@@ -59,19 +59,6 @@ Start the server with:
 go run main.go
 ```
 
-## Creating an Admin User
-
-To create an admin user, use MongoDB Compass or a similar tool to add a user with the role field set to "admin":
-
-1. Connect to your MongoDB database
-2. Navigate to the "users" collection
-3. Create a new document with:
-   - firstName: "Admin"
-   - lastName: "User"
-   - email: "admin@example.com"
-   - password: (bcrypt hashed password)
-   - role: "admin"
-
 ## Authentication Flow
 
 1. User registers or logs in and receives a JWT token
